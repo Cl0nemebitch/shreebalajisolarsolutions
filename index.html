@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Buy, service, and repair high-efficiency solar panels across India with Shree Balaji Solar Solutions.">
+  <meta name="keywords" content="Solar Panels India, Luminous Solar, Adani Solar, Rooftop Solar, Solar Installation, Solar Repair">
+  <meta property="og:title" content="Shree Balaji Solar Solutions">
+  <meta property="og:description" content="Reliable solar panel sales, service, and repair in India.">
+  <meta property="og:image" content="images/solar1.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shree Balaji Solar Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Shree Balaji Solar Solutions</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#trial">Tools</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Your trusted partner for solar panel sales, repair, and maintenance across India.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Sales:</strong> High-efficiency solar panels with installation</li>
+      <li><strong>Repairs:</strong> On-site diagnostics & servicing</li>
+      <li><strong>Maintenance:</strong> Regular cleaning & optimization</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery: Solar Installations</h2>
+    <div class="gallery">
+      <img src="images/solar1.jpg" alt="Solar panels on home rooftop">
+      <img src="images/solar2.jpg" alt="Residential solar installation">
+      <img src="images/solar3.jpg" alt="Solar panels on Indian house">
+      <img src="images/solar4.jpg" alt="Roof-top solar PV system">
+    </div>
+  </section>
+
+  <section id="blog">
+  <h2>Solar Education</h2>
+  <ul>
+    <li><strong>What is net metering?</strong> You can sell excess electricity back to the grid.</li>
+    <li><strong>Government subsidy:</strong> Up to ₹78,000 off for rooftop systems in India.</li>
+    <li><strong>Maintenance tips:</strong> Clean panels every 15 days and inspect wiring quarterly.</li>
+  </ul>
+</section>
+
+<section id="trial">
+    <h2>Try Our Tools</h2>
+    <div class="buttons">
+      <button onclick="openCalculator()">Solar Cost Calculator</button>
+      <button onclick="bookRepair()">Book a Repair</button>
+      <button onclick="showLiveOutput()">Live Output Demo</button>
+      <button onclick="comparePanels()">Compare Panels</button>
+      <button onclick="redirectToWhatsApp()">Chat on WhatsApp</button>
+      <button onclick="openPayment()">Pay for Service</button>
+    </div>
+  </section>
+
+  <section id="calendar">
+  <h2>Book a Service Slot</h2>
+  <p><strong>Select a date and time for technician visit (UI only):</strong></p>
+  <input type="date"> <input type="time">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form" onsubmit="return sendEmail(this)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shree Balaji Solar Solutions | Powered by the sun ☀️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
